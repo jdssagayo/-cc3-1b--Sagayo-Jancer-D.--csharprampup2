@@ -22,6 +22,8 @@ class Program
         Console.WriteLine("Temperature in celsius is: " + Celsius);
         Console.WriteLine("=======================================================");
 
+
+
         int numberOfStudents = 10;
         int[] ages = new int[numberOfStudents];
 
@@ -83,7 +85,8 @@ As the group ventured into the treacherous Darkwood Forest, they encountered the
 Bravery, magic, and skill would be tested as our heroes faced the ultimate battle against {villainName}. Little did they know, the {amuletName} held the key to turning the tides in their favor. The fate of Eldoria hung in the balance.";
 
         Console.WriteLine(story);
-
+// Part 2
+// 1
         Console.Write("Enter a positive integer: ");
         int n = int.Parse(Console.ReadLine());
 
@@ -102,6 +105,7 @@ Bravery, magic, and skill would be tested as our heroes faced the ultimate battl
                 Console.WriteLine();
             }
         }
+// 2
         Console.Write("Enter a positive integer: ");
         int x = int.Parse(Console.ReadLine());
 
@@ -116,9 +120,9 @@ Bravery, magic, and skill would be tested as our heroes faced the ultimate battl
             {
                 sum += i;
             }
-
+            // 3
             Console.WriteLine($"Sum of natural numbers from 1 to {n} is: {sum}");
-
+            
             Console.Write("Enter a positive integer: ");
             int v = int.Parse(Console.ReadLine());
 
