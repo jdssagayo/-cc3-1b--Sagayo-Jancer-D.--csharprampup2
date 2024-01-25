@@ -120,9 +120,9 @@ Bravery, magic, and skill would be tested as our heroes faced the ultimate battl
             {
                 sum += i;
             }
-            // 3
-            Console.WriteLine($"Sum of natural numbers from 1 to {n} is: {sum}");
             
+            Console.WriteLine($"Sum of natural numbers from 1 to {n} is: {sum}");
+            //3
             Console.Write("Enter a positive integer: ");
             int v = int.Parse(Console.ReadLine());
 
@@ -132,7 +132,7 @@ Bravery, magic, and skill would be tested as our heroes faced the ultimate battl
             }
             else
             {
-                for (int i = v; i >= 1; i--)
+                for (int i = v; i >= 1; i--) 
                 {
                     for (int j = 1; j <= i; j++)
                     {
